@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+/* SIDE BAR */
+.sidebar{
+    height: 665px;
+    background-color: #002547;
+}
+.sidebar a{
+    color: white;
+}
+.sidebar ul .active{
+    background-color: #50ABFF;
+    border-radius: 12px;
+}
+.sidebar a:hover{
+    color: #D9D9D9;
+}
+/* BIODATA */
+.home-profil .top-content .deskripsi p{
+    width: 500px;
+    text-align: justify;
+    color: #4E4E4E;
+}
+
+.home-profil .top-content .data-diri h3{
+    font-weight: 600;
+}
+
+.home-profil .data-diri{
+    background-color: #EFEFEF;
+}
+.home-profil .data-diri p{
+    color: #4E4E4E;
+}
+
+.home-profil .data-diri h5{
+    color: #4E4E4E;
+}
+
+.home-profil .kemampuan{
+    background-color: #EFEFEF;
+    height: 600px;
+}
+.home-profil .kemampuan h3{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.home-profil .kemampuan ul .progress {
+    background-color: #D9D9D9;
+}
+.home-profil .kemampuan ul .progress-bar {
+    background-color: #50ABFF;
+}
